@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TOP Library Project</title>
+        <script src="script.js" defer></script>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="header">
+            <div>
+                <h1>Library</h1>
+            </div>
+        </div>
+        <div id="">
+            <button id="showBooks">Show Books</button>
+            <button id="book-btn">Add Book</button>
+        </div>
+
+        <div class="form-popup" id="bookForm">
+            <form class="form-container">
+                <h2>Add New Book</h2>
+                <div>
+                    <label for="title"><b>Title</b></label>
+                    <input type="text" placeholder="Enter Title" name="title" required>
+                </div>
+                <div>   
+                    <label for="author"><b>Author</b></label>
+                    <input type="text" placeholder="Enter Author" name="author" required>
+                </div> 
+                <div> 
+                    <label for="pages"><b>Pages</b></label>
+                    <input type="number" placeholder="Number of Pages" name="pages" required>
+                </div> 
+                <div>      
+                    <label for="read"><b>Read</b></label>
+                    <input type="radio" name="read" required>
+                </div> 
+          
+                <button type="submit" class="btn">Add Book</button>
+                <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div> 
+
+        <div>
+            <div id="library"></div>
+        </div>
+    </body>
+</html>

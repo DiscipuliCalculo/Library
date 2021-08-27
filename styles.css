@@ -1,0 +1,12 @@
+#bookForm {
+    display: none;
+}
+
+#book-btn {
+align-items: center;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+}
