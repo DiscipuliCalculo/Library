@@ -1,4 +1,4 @@
-Library
+# Library
 
 This is the library project made for the Odin Project curriculum
 
