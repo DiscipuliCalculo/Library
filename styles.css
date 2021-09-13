@@ -1,3 +1,9 @@
+.book {
+    border-color: black;
+    border-style: double;
+    margin: 3px;
+}
+
 #bookForm {
     display: none;
 }
@@ -9,4 +15,13 @@ align-items: center;
 #header {
     display: flex;
     justify-content: center;
+}
+
+#library {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    height: 800px;
+    margin-top: 10px;
+    width: auto;
 }

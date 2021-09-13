@@ -10,35 +10,32 @@
         <div id="header">
             <div>
                 <h1>Library</h1>
+                <button id="book-btn">Add Book</button>
             </div>
         </div>
-        <div id="">
-            <button id="showBooks">Show Books</button>
-            <button id="book-btn">Add Book</button>
-        </div>
 
-        <div class="form-popup" id="bookForm">
-            <form class="form-container">
+        <div class="form-popup" id="form-container">
+            <form id="bookForm">
                 <h2>Add New Book</h2>
                 <div>
-                    <label for="title"><b>Title</b></label>
+                    <label for="title">Title</label>
                     <input type="text" placeholder="Enter Title" name="title" required>
                 </div>
                 <div>   
-                    <label for="author"><b>Author</b></label>
+                    <label for="author">Author</label>
                     <input type="text" placeholder="Enter Author" name="author" required>
                 </div> 
                 <div> 
-                    <label for="pages"><b>Pages</b></label>
+                    <label for="pages">Pages</label>
                     <input type="number" placeholder="Number of Pages" name="pages" required>
                 </div> 
                 <div>      
-                    <label for="read"><b>Read</b></label>
-                    <input type="radio" name="read" required>
+                    <label for="read">Read</label>
+                    <input type="checkbox" name="read">
                 </div> 
           
-                <button type="submit" class="btn">Add Book</button>
-                <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+                <button type="submit" id="add-btn">Add Book</button>
+                <button id="cancel-btn" >Close</button>
             </form>
         </div> 
 
