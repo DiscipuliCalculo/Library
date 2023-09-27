@@ -1,11 +1,11 @@
 let myLibrary = [];
 
 document.getElementById('book-btn').addEventListener('click', function() {
-    document.getElementById('bookForm').style.display = 'block';
+    document.getElementById('form-container').style.display = 'block'
 });
 
 document.getElementById('cancel-btn').addEventListener('click', function() {
-    document.getElementById('bookForm').style.display = 'none';
+    document.getElementById('form-container').style.display = 'none';
 })
 
 const form = document.querySelector('form')
